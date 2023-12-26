@@ -7,9 +7,9 @@ const Index = () => {
   return (
     <>
       <SobreMi />
-      <div className="h-40"></div>
+      <div className="hidden lg:block h-40"></div>
       <Proyectos />
-      <div className="h-40"></div>
+      <div className="hidden lg:block h-40"></div>
       <Form />
     </>
   )
