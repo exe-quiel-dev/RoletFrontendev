@@ -17,7 +17,7 @@ const SobreMi = () => {
   return (
     <section className="min-h-screen text-white flex items-center justify-center light-bg p-5" id='about'>
       <div className='container mx-auto flex items-center justify-center xl:justify-between gap-20 min-h-screen'>
-        <img src={imgDesarrollador} alt='Foto del desarrollador' className='w-1/4 hidden xl:inline blur-sm' />
+        <img src={imgDesarrollador} alt='Foto del desarrollador' className='w-1/4 hidden xl:inline' />
         <div className='w-full'>
           <h2 className='text-start text-base font-bold text-fuchsia-500 py-4'>SOBRE MI</h2>
           <p className="text-lg w-full md:w-auto">Hola! Me llamo <span className='font-bold'>Mariano</span>, soy desarrollador web <span className='font-bold'>Frontend</span>. Estoy dispuesto a enfrentar nuevos desafíos y ampliar mis conocimientos. Me destaca mi versatilidad para adaptarme al entorno de trabajo y a las tareas pedidas.</p>
