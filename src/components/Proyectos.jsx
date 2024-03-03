@@ -14,7 +14,15 @@ const Proyectos = () => {
     <section className="h-auto md:min-h-screen flex flex-col text-white p-5 xl:p-0" id='proyectos'>
       <div className='container mx-auto flex flex-col'>
         <h2 className='text-start text-base font-bold text-fuchsia-500 p-0 xl:p-5'>PROYECTOS</h2>
-        <CardProyecto 
+          <CardProyecto 
+            img={img3}
+            tech='vite - react router dom - normalize - tailwind css - react modal - react icons'
+            nombre=''
+            info='App de control de: inventario, pedidos y proveedores, para poder mantener el control de cualquier negocio.'
+            link='https://control-negocio-app.vercel.app/'
+            repo='https://github.com/exe-quiel-dev/control_negocio_app'
+          />
+        <CardProyectoInvertida 
           img={img1}
           tech='vite - react router dom - normalize - tailwind css '
           nombre='Aberturas Marquez'
@@ -22,21 +30,13 @@ const Proyectos = () => {
           link='https://www.aberturasmarquez.com/'
           repo='https://github.com/exe-quiel-dev/aberturas-context'
         />
-        <CardProyectoInvertida 
+        <CardProyecto 
           img={img2}
           tech='vite - react router dom - react parallax - normalize - tailwind css'
           nombre='Growshop'
           info='Una tienda growshop online donde podes encontrar todo lo que necesitas para tener tu cultivo en optimas condiciones.'
           link='https://growshop-frontend-vite.vercel.app/'
           repo='https://github.com/exe-quiel-dev/growshop-frontend-vite'
-        />
-        <CardProyecto 
-          img={img3}
-          tech='vite - react router dom - normalize - tailwind css '
-          nombre='SPA Gomeria'
-          info='SPA de gomeria para que el publico pueda ver los servicios prestados y comunicarse con la tienda para hacer las preguntas que desee.'
-          link='https://gomeria-react-vite.vercel.app/'
-          repo='https://github.com/exe-quiel-dev/gomeria-react-vite'
         />
         <CardProyectoInvertida 
           img={img4}
